@@ -52,7 +52,6 @@ h1 {
 
 .pic {
     text-align: center;
-	width: 800px;
     position: absolute;
 }
 .houses, .toys, .clothes {
@@ -73,7 +72,7 @@ background: rgb(255, 139, 159);
 text-align: center;
 justify-content: center;
 position: relative;
-top: 400px
+float: 
 }
 
 section a{
@@ -94,6 +93,7 @@ top: 150px
 }
 .animal{
     border-radius: 50px;
+	width: 100%;
 }
 .button2{
     border-radius: 50px ;
