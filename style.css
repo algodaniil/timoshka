@@ -1,1 +1,105 @@
+body{
+    background-color: pink;
+}
+
+header{
+    background-color: yellow;
+}
+
+nav{
+   display: flex; 
+   justify-content: space-between;
+   background-color: yellow;
+   padding: 15px;
+}
+a {
+    text-decoration: none;
+    color: black
+}
+
+.button1{
+    border-radius: 50px ;
+    border: 5px solid rgb(3, 156,3);
+    background: rgb(3, 156, 3);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(18, 54, 183);
+    font-family: cursive;
+    position: absolute;
+	top: 200px;
+	left: 0;
+	width: 100%;
+    margin-top: 40px;
+    font-size: 35px
+}
+
+.logo{
+    border: solid yellow;
+    border-radius: 700%;
+    width: 250px;
+    height: 250px;
+}
+
+.logo2{
+   justify-content: center; 
+   display: flex;
+   margin: 15px;
+}
+
+.pic {
+    text-align: center;
+	width: 100%
+}
+.houses, .toys, .clothes {
+    justify-content: center ;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border: 5px double orange;
+    margin: 40px 0px  40px 80px;
+    background-color: rgb(255, 255, 123);
+    flex-wrap: no wrap;
+    border-radius: 30px;
+}
+.footer{
+display: flex;
+background: rgb(255, 139, 159);
+text-align: center;
+justify-content: center;
+}
+section a{
+    color: rgb(255, 30, 30);
+    font-size: 25px;
+    font-family: cursive;
+    background-color: rgb(255, 255, 64);
+} 
+.info {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.tovar{
+    border-radius: 20px;
+}
+.animal{
+    border-radius: 50px;
+}
+.button2{
+    border-radius: 50px ;
+    border: 5px solid red;
+    background: red;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.button3{
+    border-radius: 50px ;
+    border: 5px solid rgb(50, 50, 248);
+    background:rgb(50, 50, 247);
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
