@@ -53,8 +53,8 @@ h1 {
 .pic {
 	display: flex;
 	justify-content: center;
-    text-align: center;
-    position: absolute;
+    	text-align: center;
+    	position: absolute;
 
 }
 .houses, .toys, .clothes {
