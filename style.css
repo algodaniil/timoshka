@@ -52,7 +52,8 @@ h1 {
 
 .pic {
     text-align: center;
-	width: 100%
+	width: 100%;
+    position: absolute;
 }
 .houses, .toys, .clothes {
     justify-content: center ;
@@ -65,12 +66,16 @@ h1 {
     flex-wrap: no wrap;
     border-radius: 30px;
 }
-.footer{
+
+footer{
 display: flex;
 background: rgb(255, 139, 159);
 text-align: center;
 justify-content: center;
+position: relative;
+top: 400px
 }
+
 section a{
     color: rgb(255, 30, 30);
     font-size: 25px;
@@ -81,6 +86,8 @@ section a{
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
+position: relative;
+top: 150px
 }
 .tovar{
     border-radius: 20px;
@@ -102,4 +109,5 @@ justify-content: center;
     padding-left: 20px;
     padding-right: 20px;
 }
+
 
