@@ -38,8 +38,8 @@ h1 {
 }
 
 .logo{
-    border: solid yellow;
-    border-radius: 700%;
+    border: solid green;
+    border-radius: 700px;
     width: 250px;
     height: 250px;
 }
