@@ -53,6 +53,7 @@ a {
 main {
 	background-image: url(https://i.postimg.cc/XX6pmKZc/samye-milye-domashnie-zhivotnye.jpg);
     	background-position: center;
+	background-size: 100%;
 }
 
 h1 {
