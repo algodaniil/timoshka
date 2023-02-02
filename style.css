@@ -8,9 +8,10 @@ header{
 
 nav{
    display: flex; 
-   justify-content: space-between;
    background-color: yellow;
    padding: 15px;
+   justify-content: center;
+   flex-wrap: wrap;
 }
 a {
     text-decoration: none;
@@ -18,11 +19,33 @@ a {
 }
 
 .button1{
-    border-radius: 50px ;
+    border-radius: 50px;
     border: 5px solid rgb(3, 156,3);
     background: rgb(3, 156, 3);
     padding-left: 30px;
     padding-right: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    white-space: nowrap;
+}
+
+.button2{
+    border-radius: 50px ;
+    border: 5px solid red;
+    background:red;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.button3{
+    border-radius: 50px ;
+    border: 5px solid rgb(50, 50, 248);
+    background:rgb(50, 50, 247);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 h1 {
@@ -39,7 +62,7 @@ h1 {
 
 .logo{
     border: solid yellow;
-    border-radius: 700px;
+    border-radius: 700%;
     width: 250px;
     height: 250px;
 }
@@ -51,19 +74,11 @@ h1 {
 }
 
 .pic {
-	display: flex;
-	justify-content: center;
+    text-align: center;
     position: absolute;
-	width: 99%;
 }
-
-.animal{
-   	border-radius: 50px;
-    width: 80%;
-}
-
 .houses, .toys, .clothes {
-    justify-content: center ;
+    justify-content: center;
     width: 150px;
     text-align: center;
     padding: 10px;
@@ -75,14 +90,13 @@ h1 {
 }
 
 footer{
-    display: flex;
-    background: rgb(255, 139, 159);
-    text-align: center;
-    position: relative;
-    justify-content: center;
-    top: 480px;
-    padding: 5px;
-    }
+display: flex;
+background: rgb(255, 139, 159);
+text-align: center;
+justify-content: center;
+position: relative;
+top: 350px;
+}
 
 section a{
     color: rgb(255, 30, 30);
@@ -96,24 +110,13 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 position: relative;
-top: 300px
+top: 150px
 }
 
 .tovar{
     border-radius: 20px;
 }
-
-.button2{
-    border-radius: 50px ;
-    border: 5px solid red;
-    background:red;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-.button3{
-    border-radius: 50px ;
-    border: 5px solid rgb(50, 50, 248);
-    background:rgb(50, 50, 247);
-    padding-left: 20px;
-    padding-right: 20px;
+.animal{
+    border-radius: 50px;
+	width: 100%;
 }
